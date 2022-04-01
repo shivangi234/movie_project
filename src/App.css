@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: cornsilk;
+  background-color:rgb(134, 125, 125);
 }
 
 .App-logo {
@@ -21,13 +23,28 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(247, 186, 18);
 }
 
 .App-link {
   color: #61dafb;
 }
+.cardGrid{
+  padding: 20px;
 
+}
+.card{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.cardMedia{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbbqush2ja3FO4jW-zHtPUxNeyHjvRt86SA&usqp=CAU");
+  padding-top: '56.25%';
+}
+.cardContent{
+  flex-grow: 1;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
